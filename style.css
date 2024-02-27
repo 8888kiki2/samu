@@ -18,7 +18,7 @@ h2{
   background-color: var(--nomes-name);
 }
 .meio{
-  background-color: var(#63d0fc);
+  background-color: var(--nomes-name);
  display: flex; 
 }
 .img{
