@@ -1,8 +1,8 @@
 :root {
     --cor-base: #ffffffc5;
     --vermelho: #610000;
-    --titulo-prin: #63d0fc;
-    --nomes-name: #63d0fc;
+    --titulo-prin: #6acdf5;
+    --nomes-name: #72d0f5;
   }
   body {
     background-color: var(--cor-base);
