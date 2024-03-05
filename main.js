@@ -7,7 +7,7 @@ while (nomeUsuario == ""){
 }
 
 if (nomeUsuario == null){
-    anterior.textContent = 'proletariado';
+    anterior.textContent = 'LazyTown';
 }else {
 anterior.textContent = nomeUsuario;
 }
