@@ -19,7 +19,7 @@
         }
 
         .meio {
-            position: relative;
+            position: meio;
             display: inline-block;
         }
 
@@ -29,11 +29,11 @@
             left: 65%;
             transform: translate(-50%, -50%);
             color: rgb(124, 0, 0);
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            text-shadow: 2px 2px 4px rgba(206, 82, 82, 0.7);
         }
 
         .img {
-            max-width: 50%;
+            max-width: 89%;
             height: auto;
             display: block;
         }
