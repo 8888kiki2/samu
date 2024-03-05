@@ -1,8 +1,8 @@
 alert('bem vindos a lazyTown');
-let nomeUsuario = prompt('Qual é seu nome??');
+let nomeUsuario = "";
 let anterior = document.querySelector('#texto');
  
-while(nomeUsuario == ""){
+while(nomeUsuario == "" || nomeUsuario == null){
     nomeUsuario == prompt('Qual é seu nome??');
 }
 
