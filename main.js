@@ -1,4 +1,4 @@
-alert('bem vindos a lazyTown');
+// alert('bem vindos a lazyTown');
 let nomeUsuario = "";
 let anterior = document.querySelector('#texto');
  
