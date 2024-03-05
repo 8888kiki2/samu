@@ -10,5 +10,5 @@ if(nomeUsuario == null){
     anterior.textContent = 'Usuario';
 }else{
 
-    anterior.textContent = nomeUsuario;
+anterior.textContent = nomeUsuario;
 }
