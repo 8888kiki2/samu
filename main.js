@@ -9,6 +9,5 @@ while(nomeUsuario == "" ){
 if(nomeUsuario == null){
     anterior.textContent = 'Usuario';
 }else{
-
 anterior.textContent = nomeUsuario;
 }
