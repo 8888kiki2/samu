@@ -4,26 +4,6 @@
     --titulo-prin: #6acdf5;
     --nomes-name: #72d0f5;
   }
-  body {
-    background-color: var(--cor-base);
-    color: var(--vermelho);
-    font-family: 'Regular 400', sans-serif;
-}
-
-h1{
-  background-color: var(--titulo-prin);
-
-}
-h2{
-  background-color: var(--nomes-name);
-}
-.meio{
-  background-color: var(--nomes-name);
- display: flex; 
-}
-.img{
-  width: 50%;
-}
 #texto{
   color: #321cff;
 }
