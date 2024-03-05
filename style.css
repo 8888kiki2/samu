@@ -22,7 +22,7 @@ h2{
  display: flex; 
 }
 .img{
-  width: 30%;
+  width: 50%;
 }
 #texto{
   color: #321cff;
@@ -52,7 +52,7 @@ h2{
         }
 
         .img {
-            max-width: 30%;
+            max-width: 50%;
             height: auto;
             display: block;
         }
