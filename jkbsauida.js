@@ -1,6 +1,6 @@
 let numeroSecreto = 8;
 
-let chute = prompt'';
+let chute ='';
 
 while(chute== ''){
     chute = prompt('escolha um numero de 0 a 10');
