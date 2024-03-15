@@ -1,4 +1,4 @@
-let numeroSecreto = 8;
+let numeroSecreto = Math.random()*10);
 console.log(numeroSecreto);
 let chute ='';
 
