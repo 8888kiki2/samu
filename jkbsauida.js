@@ -1,7 +1,9 @@
 let numeroSecreto = 8;
 
-let chute = prompt('escolha um numero de 0 a 10');
-
+let chute = prompt'';
+while(chute== ''){
+    chute = prompt('escolha um numero de 0 a 10');
+}
 if(numeroSecreto == chute){
     alert('párabens voce é um bosta :');
     console.log('parabens acertou!!!');
