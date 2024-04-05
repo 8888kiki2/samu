@@ -1,4 +1,4 @@
-<style>
+
 :root {
     --cor-base: #ffffffc5;
     --vermelho: #610000;
@@ -38,9 +38,9 @@
             display: block;
         }
     
-.contageem{
+.contagem{
     background-color: black;
     padding: 20px 0;
 }
 
-    </style>
+    
