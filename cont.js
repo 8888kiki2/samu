@@ -9,7 +9,7 @@ for (let x = 0; x < fodoes.length; x++) {
             textos[y].classList.remove('ativa');
         }
         fodoes[x].classList.add('ativo');
-        textos[x].classList.add('ativo');
+        textos[x].classList.add('ativa');
     }
     // fodoes[x].classList.remove('ativo');
 }
