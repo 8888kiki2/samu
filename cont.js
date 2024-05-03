@@ -18,12 +18,12 @@ for (let x = 0; x < fodoes.length; x++) {
 const contadores = document.querySelectorAll('.contador');
 
 let tempoAtual = new Date();
-let tempoObjetivo1 = new Date ('2034-04-26T00:00:00');
+let tempoobjetivo1 = new Date ('2034-04-26T00:00:00');
 let tempoobjetivo2 = new Date ('2029-07-22T00:00:00');
 let tempoobjetivo3 = new Date ('2026-04-27T68:00:00');
 let tempoobjetivo4 = new Date ('2890-12-15T00:00:00');
 
-let tempos = [tempoObjetivo1, tempoobjetivo2, tempoobjetivo3, tempoobjetivo4];
+let tempos = [tempoobjetivo1, tempoobjetivo2, tempoobjetivo3, tempoobjetivo4];
 
 for( let i=0; i < contadores.length; i++){
     contadores[i].textContent- calculaTempo(tempos[i]);
