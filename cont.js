@@ -25,7 +25,7 @@ let tempoobjetivo4 = new Date ('2890-12-15T00:00:00');
 
 let tempos = [tempoobjetivol, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
 
-for(leti- 0; i < contadores.length; i+){
+for( let i=0; i < contadores.length; i+){
     contadores[i].textContent- calculaTempo(tempos[i]);
 }
 
