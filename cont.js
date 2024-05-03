@@ -20,7 +20,7 @@ const contadores = document.querySelectorAll('.contador');
 let tempoAtual = new Date();
 let tempoobjetivo1 = new Date ('2034-04-26T00:00:00');
 let tempoobjetivo2 = new Date ('2029-07-22T00:00:00');
-let tempoobjetivo3 = new Date ('2026-04-27T68:00:00');
+let tempoobjetivo3 = new Date ('2026-04-27T00:00:00');
 let tempoobjetivo4 = new Date ('2890-12-15T00:00:00');
 
 let tempos = [tempoobjetivo1, tempoobjetivo2, tempoobjetivo3, tempoobjetivo4];
