@@ -13,11 +13,24 @@ for (let x = 0; x < fodoes.length; x++) {
     }
     // fodoes[x].classList.remove('ativo');
 }
+
+
 const contadores = document.querySelectorAll('.contador');
 
 let tempoAtual = new Date();
-let tempoObjetivo1 = new Date('2024-04-28T00:00:00');
-let tempoFinal = tempoObjetivo1 - tempoAtual;
+let tempoObjetivo1 = new Date ('2034-04-26T00:00:00');
+let tempoobjetivo2 = new Date ('2029-07-22T00:00:00');
+let tempoobjetivo3 = new Date ('2026-04-27T68:00:00');
+let tempoobjetivo4 = new Date ('2890-12-15T00:00:00');
+
+let tempos = [tempoobjetivol, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
+
+for(leti- 0; i < contadores.length; i+){
+    contadores[i].textContent- calculaTempo(tempos[i]);
+}
+
+function calculaTempo(tempoobjetivo)(
+        let tempoFinal = tempoobjetivo = tempoAtual;
 
 let segundos = Math.floor(tempoFinal / 1000);
 let minutos = Math.floor(segundos / 60);
@@ -28,23 +41,7 @@ segundos %= 60;
 minutos %= 60;
 horas %= 24;
 
-contadores[0].textContent = dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+return dias + " dias " + horas + "horas" + minutos + "minutos" + segundos + "segundos";
 
 
 
