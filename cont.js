@@ -29,7 +29,7 @@ for(leti- 0; i < contadores.length; i+){
     contadores[i].textContent- calculaTempo(tempos[i]);
 }
 
-function calculaTempo(tempoobjetivo)(
+function calculaTempo(tempoobjetivo){
         let tempoFinal = tempoobjetivo = tempoAtual;
 
 let segundos = Math.floor(tempoFinal / 1000);
@@ -42,6 +42,7 @@ minutos %= 60;
 horas %= 24;
 
 return dias + " dias " + horas + "horas" + minutos + "minutos" + segundos + "segundos";
+}
 
 
 
